@@ -1,4 +1,4 @@
-package edu.javacourse;
+﻿package edu.javacourse;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;

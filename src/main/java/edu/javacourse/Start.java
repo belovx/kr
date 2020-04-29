@@ -1,4 +1,4 @@
-package edu.javacourse;
+﻿package edu.javacourse;
 
 //главный класс в котором запускаем  GUI
 public class Start {

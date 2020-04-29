@@ -1,27 +1,27 @@
-п»їpackage edu.javacourse;
+package edu.javacourse;
 
-//РєР»Р°СЃСЃ Calc РґР»СЏ РІС‹С‡РёСЃР»РµРЅРёСЏ СЂР°СЃС…РѕРґР° С‚РѕРїР»РёРІР°
+//класс Calc для вычисления расхода топлива
 public class Calc {
 	
-	// РёРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РїРµСЂРµРјРµРЅРЅС‹С…
+	// инициализация переменных
 	double way;
 	double average;
 	double price;
 	double fuel;
 	double cost;
 	
-	// РёРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РїРµСЂРµРјРµРЅРЅС‹С…
+	// инициализация переменных
 	Calc(double way, double average, double price) {
 		this.fuel = average / 100.0 * way;
 		this.cost = fuel * price;
 	}
 	
-	// РјРµС‚РѕРґ getFuel РІРѕР·РІСЂР°С‰Р°РµС‚ РєРѕР»РёС‡РµСЃС‚РІРѕ РЅРµРѕР±С…РѕРґРёРјРѕРіРѕ С‚РѕРїР»РёРІР°
+	// метод getFuel возвращает количество необходимого топлива
 	public String getFuel() {
 		return Double.toString(fuel);
 	}
 	
-	// РјРµС‚РѕРґ getCost РІРѕР·РІСЂР°С‰Р°РµС‚ СЃС‚РѕРёРјРѕСЃС‚СЊ РЅРµРѕР±С…РѕРґРёРјРѕРіРѕ С‚РѕРїР»РёРІР°
+	// метод getCost возвращает стоимость необходимого топлива
 	public String getCost() {
 		return Double.toString(cost);
 	}

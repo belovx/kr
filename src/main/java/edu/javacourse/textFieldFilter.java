@@ -1,4 +1,4 @@
-package edu.javacourse;
+﻿package edu.javacourse;
 
 import javax.swing.JTextField;
 import javax.swing.text.AttributeSet;
