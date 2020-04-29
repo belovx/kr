@@ -40,7 +40,7 @@
           <configuration>
             <source>1.7</source>
             <target>1.7</target>
-			        <encoding>Cp1252</encoding>
+			        <encoding>UTF-8</encoding>
           </configuration>		  
         </plugin>
         <plugin>
@@ -64,18 +64,14 @@
           <artifactId>maven-site-plugin</artifactId>
           <version>3.7.1</version>
         </plugin>
-        <plugin>
-          <artifactId>maven-project-info-reports-plugin</artifactId>
-          <version>3.0.0</version>
-        </plugin>
-			  <plugin>
+		<plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>exec-maven-plugin</artifactId>
           <version>1.6.0</version>
           <configuration>
             <mainClass>edu.javacourse.Start</mainClass>
           </configuration>
-       </plugin>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>
