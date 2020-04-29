@@ -4,16 +4,16 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-//создание класса Test2
+//СЃРѕР·РґР°РЅРёРµ РєР»Р°СЃСЃР° Test2
 public class Test2 {
 
 	@org.junit.Test
 	public void test1() {
 		
 		
-		// создание объекта Calc с передачей параметров
+		// СЃРѕР·РґР°РЅРёРµ РѕР±СЉРµРєС‚Р° Calc СЃ РїРµСЂРµРґР°С‡РµР№ РїР°СЂР°РјРµС‚СЂРѕРІ
 		Calc a = new Calc(2000, 30, 90);
-		// сравнение результатов
+		// СЃСЂР°РІРЅРµРЅРёРµ СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ
 		assertEquals(a.getCost(),"54000.0");
 	}
 
